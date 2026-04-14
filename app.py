@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello, World from Cloud Run (Python)!"
+    return "Hello, World from Cloud Run (Python)! - with changes"
 
 if __name__ == "__main__":
     import os
